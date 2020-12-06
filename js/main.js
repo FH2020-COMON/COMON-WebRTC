@@ -20,9 +20,7 @@ var sdpConstraints = {
 
 /////////////////////////////////////////////
 
-var room;
-// Could prompt for room name:
-room = prompt('Enter room name:');
+var room = "foo";
 
 // 연결할 domain name 
 var socket = io.connect("https://ec2-54-180-98-91.ap-northeast-2.compute.amazonaws.com/rtc");
